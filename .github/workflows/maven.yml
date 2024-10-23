@@ -37,9 +37,9 @@ jobs:
 
     - name: AS commmit et push
       run: |
-       git config --global user.name Astyell
-       git config --global user.email etoiledeplante@gmail.com
-       git add -A
-       git status
-       git commit -m "exécution de maven"
-       git push
+        git config --global user.name Astyell
+        git config --global user.email etoiledeplante@gmail.com
+        git add -A
+        git status
+        git commit -m "exécution de maven"
+        git push
